@@ -4,9 +4,7 @@ TARGET_EXEC := final_program
 BUILD_DIR := ./build
 SRC_DIRS := ./src
 
-# Add version of C++
-VER="-std=c++11"
-
+VER= -std=c++11
 
 # Find all the C and C++ files we want to compile
 # Note the single quotes around the * expressions. Make will incorrectly expand these otherwise.
