@@ -19,3 +19,6 @@ chmod +x daily.sh
 
 ## to do
 - automate testing script (complete `testing.sh`)
+
+## misc
+- setup for this project took 2-3 hrs alone, but should pay off for other days
