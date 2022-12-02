@@ -6,17 +6,15 @@ using namespace std;
 
 int main(int argc, char **pArgv)
 {
-
     ifstream inp("../src/input.txt");
-
     if (inp.is_open())
     {
         string currline;
-        while (inp)
+        while (getline(inp, currline))
         {
-            getline(inp, currline);
             cout << currline << "\n";
         }
+        inp.close();
     }
     else
     {
